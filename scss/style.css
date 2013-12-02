@@ -1,0 +1,107 @@
+
+body{
+	margin:0;
+	padding:0;
+	background: url(../img/DarkRedSuede.png) 50% 0 repeat fixed;
+}
+
+#home { 
+	background: url(../img/cover.jpg) 50% 0 no-repeat fixed; 
+	height: 1000px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about { 
+	height: 720px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+/* Introduction */
+
+#home #logo {
+ background: url("../img/Logo---Transparent---Small-Margins.png") no-repeat scroll center top transparent;
+ height: 1500px;
+ position: absolute;
+ text-indent: -9999px;
+ top: 190px;
+ width: 100%; 
+ }
+ 
+ #home #name {
+ 	background: url("../img/Logo---Transparent---Small-Margins-text.png") no-repeat scroll center top transparent;
+ height: 1000px;
+ position: absolute;
+ text-indent: -9999px;
+ top: 100px;
+ width: 100%;
+ }
+
+#about #ab {
+ 	height: 458px;
+ 	position: absolute;
+ 	top: 291px; 
+ 	width: 50%;
+ 	text-align:center;
+ 	color:white;
+ 	font-size:3em;
+ 	text-align:left;
+ 	margin-left:10%;
+ }
+ 
+ #about #ab2
+ {
+ 	height: 458px;
+ 	position: absolute;
+ 	top: 291px; 
+ 	width: 25%;
+ 	text-align:center;
+ 	color:white;
+ 	font-size:2em;
+ 	text-align:center;
+ 	margin-left:65%;
+ }
+ /* Nav bar */
+
+nav {
+	height:100px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+ul {
+	text-align: center;
+}
+
+
+nav li {
+	color: white;
+	display: inline-block;
+	font-size:4em;
+}
+
+nav li:hover {
+	color:red;
+}
+
+footer {
+	background-color:rgba(0,0,0,0.8);
+	width:100%;
+	position:absolute;
+}
+
+footer li {
+text-align:center;
+	display:inline-block;
+	font-size:2em;
+	color:white;
+	margin-left:60px;
+}
+
+

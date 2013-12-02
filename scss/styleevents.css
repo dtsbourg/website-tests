@@ -1,0 +1,111 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#home { 
+	background: url(../img/fb1.jpg) 50% 0 repeat fixed; 
+	height: 790px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about { 
+	background: url(../img/space1.jpg) 50% 0 repeat fixed;
+	height: 800px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+/* Introduction */
+
+#home #logo {
+	position:absolute;
+	font-size:7.5em;
+	color:white;
+	margin-top:46.55%;
+	background: url(../img/facebook_blue.jpg) 50% 0 no-repeat fixed;
+	border-radius:2px;
+}
+
+#home #name {
+	position:absolute;
+	font-size:4em;
+	color:white;
+	margin-top:43.2%;
+	margin-left:0%;
+	background: url(../img/facebook_blue.jpg) 50% 0 no-repeat fixed;
+}
+
+
+/*#checkout {
+	position:absolute;
+	height:75px;
+	background-color:rgba(0,0,0,0.75);
+	top:0px;
+	width:100%;
+	margin-left:0%;
+	font-size:4em;
+	color:white;
+	text-align:center;
+}
+
+nav li {
+display: inline-block;
+}*/
+
+#home #checkout img {
+	float:left;
+	margin-left:20px;
+	margin-top:-7px;
+}
+
+/*#home #logo {
+ background: url("../img/Logo---Transparent---Small-Margins.png") no-repeat scroll center top transparent;
+ height: 1500px;
+ position: absolute;
+ text-indent: -9999px;
+ top: 190px;
+ width: 100%; 
+ }
+ 
+ #home #name {
+ 	background: url("../img/Logo---Transparent---Small-Margins-text.png") no-repeat scroll center top transparent;
+ height: 1000px;
+ position: absolute;
+ text-indent: -9999px;
+ top: 100px;
+ width: 100%;
+ }
+
+#about #ab {
+ 	height: 458px;
+ 	position: absolute;
+ 	top: 291px; 
+ 	width: 50%;
+ 	text-align:center;
+ 	color:white;
+ 	font-size:3em;
+ 	text-align:left;
+ 	margin-left:10%;
+ }
+ 
+ #about #ab2
+ {
+ 	height: 458px;
+ 	position: absolute;
+ 	top: 291px; 
+ 	width: 25%;
+ 	text-align:center;
+ 	color:white;
+ 	font-size:2em;
+ 	text-align:center;
+ 	margin-left:65%;
+ }*/
+ 

@@ -1,0 +1,39 @@
+body {
+	background-image: url("img/fb1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+img {
+	width: 185%;
+	margin-top: -600px;
+	margin-left: -630px;
+}
+
+footer {
+	background-color: white;
+	height: 6%;
+	width: 515px;
+	bottom: 13px;
+	position: fixed;
+	margin-left: 31%;
+	margin-bottom: -13px;
+}
+
+ul {
+	font-size: 1em;
+
+}
+
+li {
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+	color: #706b64;
+	text-transform: uppercase;
+}
+
+li:hover{
+	color: #760001;
+}

@@ -10,74 +10,42 @@ img {
 	height: 100%;
 
 	opacity: 1;
-    /*-moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;*/
 }
 
 #randomCrypto {
 	float: left;
 	top: 0px;
-	margin-top: -15px;
-    /*-moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;*/
+	margin-top: 47px;
 }
 
 #randomCrypto:hover {
 	background-color: #000000;
-    /*-moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;*/
 }
 
 img:hover, #randomCrypto:hover img, #NASA:hover img,
  #Facebook:hover img, #DrinkUp:hover img {
 	opacity: 0.5;
-    /*-moz-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;*/
 }
 
 #NASA {
 	margin-right: -18.5px;
-	margin-top: -15px;
+	margin-top: 47px;
 	float:right;
 	top: 0px;
 }
 
 #NASA:hover {
 	background-color: #000000;
-    /*-moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;*/
-
 }
 
 #Facebook {
 	margin-top: -5px;
 	float:left;
 	bottom: 0px;
-	margin-bottom: -15px;
 }
 
 #Facebook:hover {
 	background-color: #000000;
-    /*-moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;*/
 }
 
 #DrinkUp {
@@ -85,16 +53,10 @@ img:hover, #randomCrypto:hover img, #NASA:hover img,
 	margin-top: -5px;
 	float: right;
 	bottom: 0px;
-	margin-bottom: -15px;
 }
 
 #DrinkUp:hover {
 	background-color: #000000;
-    /*-moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;*/
 }
 
 #NASADescription, #FbDescription, #DrinkDescription {
@@ -110,15 +72,14 @@ img:hover, #randomCrypto:hover img, #NASA:hover img,
 	font-size: 6.5em;
 }
 
-
-footer {
-	background-color: white;
-	height: 6%;
-	width: 515px;
-	bottom: 13px;
+header {
+	width: 100%;
+	height: 7%;
 	position: fixed;
-	margin-left: 31%;
-	margin-bottom: -13px;
+	background-color: white;
+	top:0px;
+	left: 0px;
+	text-align: center;
 }
 
 ul {
